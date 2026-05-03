@@ -11,43 +11,60 @@ The goal is to transform raw data into actionable insights and build an interact
 
 🎯 Objectives
 
-Analyze sales and profit trends
-Identify high-performing categories and regions
-Detect loss-making products
-Understand the impact of discounts on profitability
-Build a dashboard for business insights
+--Analyze sales and profit trends
+
+--Identify high-performing categories and regions
+
+--Detect loss-making products
+
+--Understand the impact of discounts on profitability
+
+--Build a dashboard for business insights
 
 🧹 Data Cleaning
 
 Performed using Python (Pandas):
 
-Removed duplicates
-Handled missing values
-Converted data types (Date, Numeric)
-Renamed columns for consistency
+--Removed duplicates
+
+--Handled missing values
+
+--Converted data types (Date, Numeric)
+
+--Renamed columns for consistency
+
 Created new features:
-Profit Margin
-Year, Month
+
+--Profit Margin,
+--Year, Month
 
 📊 Exploratory Data Analysis (EDA)
 
 Conducted using Python:
 
-Category-wise sales and profit analysis
-Region-wise performance
-Monthly sales trends
-Correlation between discount and profit
-Identification of outliers and loss areas
+--Category-wise sales and profit analysis
+
+--Region-wise performance
+
+--Monthly sales trends
+
+--Correlation between discount and profit
+
+--Identification of outliers and loss areas
 
 🗄️ SQL Analysis
 
 Used SQL to validate insights and perform structured queries:
 
-Total sales and profit calculation
-Category and regional performance
-Loss-making products identification
-Discount impact analysis
-Monthly sales trends
+--Total sales and profit calculation
+
+--Category and regional performance
+
+--Loss-making products identification
+
+--Discount impact analysis
+
+--Monthly sales trends
 
 📈 Dashboard (Power BI)
 
@@ -56,41 +73,64 @@ Monthly sales trends
 
 Built an interactive dashboard including:
 
-KPI Cards (Sales, Profit, Profit Margin)
-Sales by Category
-Profit by Region
-Monthly Sales Trend
-Top & Loss-making Products
-Discount vs Profit Analysis
+--KPI Cards (Sales, Profit, Profit Margin)
+
+--Sales by Category
+
+--Profit by Region
+
+--Monthly Sales Trend
+
+--Top & Loss-making Products
+
+--Discount vs Profit Analysis
 
 🔍 Key Insights
 
-Technology category generates highest sales and profit
-Furniture shows high sales but low profitability
-West region is the top-performing region
-South region records lowest sales
-High discounts lead to reduced profit
-Certain products incur losses despite high sales
-Sales peak during September and November
+--Technology category generates highest sales and profit
+
+--Furniture shows high sales but low profitability
+
+--West region is the top-performing region
+
+--South region records lowest sales
+
+--High discounts lead to reduced profit
+
+--Certain products incur losses despite high sales
+
+--Sales peak during September and November
 
 🛠️ Tools & Technologies
 
-Python (Pandas)
-SQL (MySQL)
-Power BI
+--Python (Pandas)
+
+--SQL (MySQL)
+
+--Power BI
 
 📁 Project Structure
 
 ├── data/
+
 │   ├── raw_dataset.csv
+
 │   ├── cleaned_dataset.csv
+
 ├── notebooks/
+
 │   ├── data_cleaning.ipynb
+
 │   ├── eda_analysis.ipynb
+
 ├── sql/
+
 │   ├── queries.sql
+
 ├── dashboard/
+
 │   ├── powerbi_dashboard.pbix
+
 └── README.md
 
 💡 Conclusion
